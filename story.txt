@@ -1,0 +1,41 @@
+REM The code will first open up the notepade
+REM next it will talk to the user
+REM then it will open the users system 
+REM using "msinfo32" command
+REM then it will close it
+REM and will return to notepad
+
+REM SYSTEM PART
+
+
+Gui r
+Delay 500
+String notepad
+Delay 500
+ENTER
+Delay 500
+String hmmmm I wonder what type of system you have?
+Delay 500
+Gui r
+String msinfo32
+Delay 500
+ENTER
+REM gives user time to process the system info
+Delay 1000
+Alt F4
+Delay 500
+ENTER
+Delay 500
+String hmmm that is a cool system
+Delay 500
+
+REM CALCULATOR PART
+REM here the code will now 
+REM just open and close  
+REM a calculator
+
+String I actually love math, lets check out a calculator
+Delay 500
+Gui r
+Delay 500
+String calc
