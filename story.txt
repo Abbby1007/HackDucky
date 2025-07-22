@@ -34,8 +34,27 @@ REM here the code will now
 REM just open and close  
 REM a calculator
 
-String I actually love math, lets check out a calculator
+String I wonder what 2 + 2. Let me check
 Delay 500
 Gui r
 Delay 500
 String calc
+Delay 500
+ENTER
+Delay 500
+String 2
+Delay 500
+String +
+Delay 500
+String 2
+Delay 1000
+Alt F4
+Delay 500
+String Wow I thoguht it would be fish
+Delay 500
+String Extremely Disappointed :()
+Delay 500
+ENTER
+Delay 500
+String 
+
